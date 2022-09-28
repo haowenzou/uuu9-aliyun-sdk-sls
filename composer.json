@@ -1,0 +1,29 @@
+{
+  "name": "uuu9/aliyun-sdk-sls",
+  "description": "Aliyun Log Service PHP SDK",
+  "keywords": [
+    "aliyun",
+    "sls",
+    "log"
+  ],
+  "homepage": "http://www.aliyun.com/product/sls/",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zhw",
+      "email": "980334125@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AliyunSLS\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0.12",
+    "ext-json": "*",
+    "ext-zlib": "*",
+    "ext-curl": "*"
+  }
+}
